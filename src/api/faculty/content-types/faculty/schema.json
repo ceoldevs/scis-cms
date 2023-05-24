@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faculties",
+  "info": {
+    "singularName": "faculty",
+    "pluralName": "faculties",
+    "displayName": "Faculty",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "Assistant Professor",
+        "Professor",
+        "Senior Professor",
+        "Associate Professor",
+        "Professor and Dean"
+      ],
+      "required": true
+    },
+    "areaOfInterest": {
+      "type": "json",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "otherInformation": {
+      "type": "richtext"
+    },
+    "dblp": {
+      "type": "string"
+    },
+    "scopus": {
+      "type": "string"
+    },
+    "siteId": {
+      "type": "uid",
+      "required": true
+    },
+    "display_pic": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "education": {
+      "type": "richtext"
+    },
+    "dblp_rss": {
+      "type": "string"
+    }
+  }
+}
