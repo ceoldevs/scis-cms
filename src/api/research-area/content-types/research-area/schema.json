@@ -23,7 +23,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::research-paper.research-paper",
-      "inversedBy": "research_areas"
+      "mappedBy": "research_areas"
     }
   }
 }
