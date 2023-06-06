@@ -64,6 +64,12 @@
     },
     "dblp_rss": {
       "type": "string"
+    },
+    "research_paper": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::research-paper.research-paper",
+      "inversedBy": "faculties"
     }
   }
 }

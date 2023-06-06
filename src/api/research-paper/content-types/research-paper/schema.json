@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "research_papers",
+  "info": {
+    "singularName": "research-paper",
+    "pluralName": "research-papers",
+    "displayName": "Research Paper",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "faculties": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faculty.faculty",
+      "mappedBy": "research_paper"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "json",
+      "required": true
+    },
+    "research_areas": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::research-area.research-area",
+      "inversedBy": "research_papers"
+    }
+  }
+}

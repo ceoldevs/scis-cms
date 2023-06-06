@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "research_areas",
+  "info": {
+    "singularName": "research-area",
+    "pluralName": "research-areas",
+    "displayName": "Research Area",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "research_papers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::research-paper.research-paper",
+      "inversedBy": "research_areas"
+    }
+  }
+}
