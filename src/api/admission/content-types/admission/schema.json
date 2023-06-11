@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admissions",
+  "info": {
+    "singularName": "admission",
+    "pluralName": "admissions",
+    "displayName": "admission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "course": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
