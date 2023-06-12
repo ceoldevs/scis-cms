@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_actions_actions",
+  "info": {
+    "displayName": "Actions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

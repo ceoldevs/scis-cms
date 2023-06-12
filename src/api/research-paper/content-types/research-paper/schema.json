@@ -15,12 +15,6 @@
     "title": {
       "type": "string"
     },
-    "faculties": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::faculty.faculty",
-      "mappedBy": "research_paper"
-    },
     "publisher": {
       "type": "string"
     },
@@ -33,6 +27,12 @@
       "relation": "manyToMany",
       "target": "api::research-area.research-area",
       "inversedBy": "research_papers"
+    },
+    "faculties": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::faculty.faculty",
+      "mappedBy": "research_papers"
     }
   }
 }

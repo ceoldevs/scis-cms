@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "batch": {
+      "type": "string"
+    },
+    "studentList": {
+      "type": "richtext"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "batch"
+    }
+  }
+}
