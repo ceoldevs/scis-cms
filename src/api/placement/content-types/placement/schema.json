@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "placements",
+  "info": {
+    "singularName": "placement",
+    "pluralName": "placements",
+    "displayName": "Placements",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "placementCoodinators": {
+      "type": "richtext"
+    },
+    "placementList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "placements.placement-year"
+    },
+    "introText": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "admissions",
   "info": {
     "singularName": "admission",
     "pluralName": "admissions",
-    "displayName": "admission",
+    "displayName": "Admission",
     "description": ""
   },
   "options": {
@@ -12,11 +12,28 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "course": {
-      "type": "string"
+    "mca": {
+      "type": "component",
+      "repeatable": false,
+      "component": "admissions.course-admission"
     },
-    "description": {
-      "type": "text"
+    "mtech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "admissions.course-admission"
+    },
+    "imtech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "admissions.course-admission"
+    },
+    "phd": {
+      "type": "component",
+      "repeatable": false,
+      "component": "admissions.course-admission"
+    },
+    "homeContent": {
+      "type": "richtext"
     }
   }
 }

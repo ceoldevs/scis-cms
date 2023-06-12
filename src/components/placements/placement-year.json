@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_placements_placement_years",
+  "info": {
+    "displayName": "PlacementYear",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    },
+    "placementInfo": {
+      "type": "richtext"
+    }
+  }
+}

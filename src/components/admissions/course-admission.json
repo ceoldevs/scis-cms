@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_admissions_course_admissions",
+  "info": {
+    "displayName": "Course Admission",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
