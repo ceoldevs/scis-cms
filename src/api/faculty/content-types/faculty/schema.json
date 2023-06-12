@@ -65,9 +65,9 @@
     "dblp_rss": {
       "type": "string"
     },
-    "research_paper": {
+    "research_papers": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::research-paper.research-paper",
       "inversedBy": "faculties"
     }

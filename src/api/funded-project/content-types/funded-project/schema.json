@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "funded_projects",
+  "info": {
+    "singularName": "funded-project",
+    "pluralName": "funded-projects",
+    "displayName": "Funded project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projects": {
+      "type": "richtext"
+    }
+  }
+}

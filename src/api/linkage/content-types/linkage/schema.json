@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "linkages",
+  "info": {
+    "singularName": "linkage",
+    "pluralName": "linkages",
+    "displayName": "Linkages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "present": {
+      "type": "richtext"
+    },
+    "past": {
+      "type": "richtext"
+    }
+  }
+}
