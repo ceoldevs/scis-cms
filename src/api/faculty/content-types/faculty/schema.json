@@ -42,7 +42,7 @@
       "type": "string"
     },
     "scopus": {
-      "type": "string"
+      "type": "text"
     },
     "siteId": {
       "type": "uid",
